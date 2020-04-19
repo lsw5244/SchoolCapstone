@@ -513,6 +513,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  maxDeckSize: 4
 --- !u!4 &636643586
 Transform:
   m_ObjectHideFlags: 0

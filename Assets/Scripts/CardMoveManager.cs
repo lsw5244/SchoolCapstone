@@ -29,17 +29,14 @@ public class CardMoveManager : MonoBehaviour
             {
                 if (hit.collider.gameObject.tag == "Card")
                 {
-                    Debug.Log("CARD!!!!");
-                    //hit.collider.gameObject.GetComponent<inCardMove>().movePos = rightCardPos[0];
-                    //1. 카드 덱에 넣기
-                    //2. 카드 덱을 기준으로rightCardPos로 옮기기
-                    if (deck.Count < maxDeckSize)  //덱 찬건지 확인
+                    if (deck.Count < maxDeckSize)  //덱 사이즈 확인
                     {
-                        deck.Add(hit.collider.gameObject);//덱에 카드넣기
+
+                        deck.Add(hit.collider.gameObject);//덱에 카드추가
                         //카드 움직이기
-                        hit.collider.gameObject.GetComponent<inCardMove>().movePos = rightCardPos[deck.IndexOf(hit.collider.gameObject)];
-                        //Debug.Log(deck.IndexOf(hit.collider.gameObject));
-                        hit.collider.gameObject.tag = "DeckCard";
+                        hit.collider.gameObject.GetComponent<inCardMove>().movePos =
+                            rightCardPos[deck.IndexOf(hit.collider.gameObject)];
+                        hit.collider.gameObject.tag = "DeckCard";//태그 변경
                     }
                 }
                 else if (hit.collider.gameObject.tag == "DeckCard")
@@ -50,7 +47,4 @@ public class CardMoveManager : MonoBehaviour
 
         }
     }
-
-
-
 }
