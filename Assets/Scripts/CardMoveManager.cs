@@ -39,9 +39,9 @@ public class CardMoveManager : MonoBehaviour
                         hit.collider.gameObject.tag = "DeckCard";//태그 변경
                     }
                 }
-                else if (hit.collider.gameObject.tag == "DeckCard")
+                else if (hit.collider.gameObject.tag == "DeckCard") 
                 {
-                    Debug.Log("DeckCardClick!!!!!!!!!!!");
+                    Debug.Log("DeckCardClick!!!!!!!!!!!"); //덱에서 제외
                 }
             }
 

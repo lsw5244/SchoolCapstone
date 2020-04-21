@@ -2,29 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeRedMat : MonoBehaviour
+public class ChangeRedMat : Card
 {
-    Card card = new Card();
-
     void Start()
     {
-        card.number = 1;
-        card.titile = "ChangeRedMat";
-
-        //card.Effect();
+        number = 1;
+        titile = "ChangeRedMat";
     }
 
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0))  //사용 트리거
         {
             Effect();
-            Debug.Log(card.number);
-            Debug.Log(card.titile);
+            Debug.Log(number);
+            Debug.Log(titile);
         }
     }
 
-    public void Effect()
+    public override void Effect()  //임시 Effect
     {
         GameObject[] objs = GameObject.FindGameObjectsWithTag("Enermy");
         foreach(GameObject obj in objs)
@@ -32,6 +28,4 @@ public class ChangeRedMat : MonoBehaviour
             obj.GetComponent<MeshRenderer>().material.color = Color.red;
         }
     }
-
-
 }
