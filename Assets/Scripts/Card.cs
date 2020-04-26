@@ -8,7 +8,8 @@ public class Card : MonoBehaviour
     public int number;
     //카드 이름
     public string titile;
-
+    //카드 0, 1, 2
+    public int status;
 
     public Card()
     {
@@ -19,5 +20,4 @@ public class Card : MonoBehaviour
     {
         Debug.Log("Effcet 미작성시");  //카드에서 Effect 미작성시 호출
     }
-   
 }
