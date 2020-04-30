@@ -10,6 +10,8 @@ public class Card : MonoBehaviour
     [HideInInspector] public string title;
     //카드 0, 1, 2
     [HideInInspector] public int status;
+    //cost
+    [HideInInspector] public int cost;
 
     public Card()
     {
@@ -18,6 +20,6 @@ public class Card : MonoBehaviour
 
     public virtual void Effect()
     {
-        Debug.Log("Effcet 미작성시");  //카드에서 Effect 미작성시 호출
+        Debug.Log("Effcet 미작성");  //카드에서 Effect 미작성시 호출
     }
 }
