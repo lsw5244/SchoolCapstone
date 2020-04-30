@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/UseCard.unity
+- path: Assets/Scenes/UseActiveCard.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

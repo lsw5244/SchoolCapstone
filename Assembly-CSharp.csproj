@@ -68,6 +68,7 @@
     <Compile Include="Assets\EffectAsset\CartoonFX\Scipts\Colorizer.cs" />
     <Compile Include="Assets\EffectAsset\CartoonFX\Scipts\LightCurves.cs" />
     <Compile Include="Assets\EffectAsset\CartoonFX\Scipts\ParticleSystemScaler.cs" />
+    <Compile Include="Assets\Scripts\Card\ActiveEx1.cs" />
     <Compile Include="Assets\Scripts\Card\Card.cs" />
     <Compile Include="Assets\Scripts\Card\ChangeRedMat.cs" />
     <Compile Include="Assets\Scripts\Card\IceAge.cs" />

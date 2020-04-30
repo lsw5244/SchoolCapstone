@@ -291,8 +291,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041343155}
-  m_LocalRotation: {x: 0.5192755, y: -0.0005175568, z: 0.00030548306, w: 0.85460675}
-  m_LocalPosition: {x: 0.8689173, y: 19.337917, z: -10.735086}
+  m_LocalRotation: {x: 0.5345319, y: -0.010659676, z: 0.006719831, w: 0.84505445}
+  m_LocalPosition: {x: 1.1049373, y: 10.383034, z: -6.3514566}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -313,8 +313,7 @@ MonoBehaviour:
   number: 0
   title: 
   status: 0
-  particleEffect: {fileID: 4106754614785443975, guid: b02d6f254fdd29b48bb19703038b19f6,
-    type: 3}
+  particleEffect: {fileID: 100006, guid: 050468609c33c67438d88392f1bb6704, type: 3}
   range: 5
 --- !u!114 &2041343160
 MonoBehaviour:
@@ -328,8 +327,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73f74aba80ad3f942af1a6b6387783f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enermyCount: 0
-  enermy: {fileID: 0}
+  enermyCount: 10
+  enermy: {fileID: 4106754614785443975, guid: b02d6f254fdd29b48bb19703038b19f6, type: 3}
 --- !u!1 &2067468414
 GameObject:
   m_ObjectHideFlags: 0
