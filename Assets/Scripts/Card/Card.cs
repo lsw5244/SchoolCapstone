@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class Card : MonoBehaviour
 {
-    //카드 번호
+    //number(int)
     [HideInInspector] public int number;
-    //카드 이름
+    //title(string)
     [HideInInspector] public string title;
-    //카드 0, 1, 2
+    //1, 2(int)
     [HideInInspector] public int status;
-    //cost
+    //cost (int)
     [HideInInspector] public int cost;
+    // Active / Passive (string)
+    [HideInInspector] public string type;
 
     public Card()
     {

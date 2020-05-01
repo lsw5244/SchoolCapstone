@@ -12,6 +12,7 @@ public class ActiveEx : Card
         number = 2;
         title = "ActiveEx";
         status = 0;
+        type = "Active";
     }
 
     void Update()
