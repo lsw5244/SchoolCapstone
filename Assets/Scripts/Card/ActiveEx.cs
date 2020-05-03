@@ -19,7 +19,7 @@ public class ActiveEx : Card
     {
         if(Input.GetMouseButtonDown(0))
         {
-            Effect();
+            Effect();          
         }
     }
 

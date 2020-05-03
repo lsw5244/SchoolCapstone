@@ -15,10 +15,6 @@ public class Card : MonoBehaviour
     // Active / Passive (string)
     [HideInInspector] public string type;
 
-    public Card()
-    {
-
-    }
 
     public virtual void Effect()
     {
