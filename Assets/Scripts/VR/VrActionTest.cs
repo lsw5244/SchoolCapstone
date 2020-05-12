@@ -15,7 +15,6 @@ public class VrActionTest : MonoBehaviour
         {
             Debug.Log("Grab@@@@@@@@@@@@@@@@@@.");
             //TODO : 그랩 했을 떄 잡은 것 차일드화 하기
-            //https://you-rang.tistory.com/261
         }
     }
 
