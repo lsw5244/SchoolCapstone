@@ -77,7 +77,7 @@
     <Compile Include="Assets\Scripts\CreateEnermy.cs" />
     <Compile Include="Assets\Scripts\Unit.cs" />
     <Compile Include="Assets\Scripts\UnitEX.cs" />
-    <Compile Include="Assets\Scripts\VR\VrActionTest.cs" />
+    <Compile Include="Assets\Scripts\VR\ViveControlManager.cs" />
     <Compile Include="Assets\Scripts\VR\VrGrabAction.cs" />
     <Compile Include="Assets\Scripts\inCardMove.cs" />
     <None Include="Assets\EffectAsset\CartoonFX\Readme.txt" />

@@ -51,6 +51,7 @@ public class VrGrabAction : MonoBehaviour
         }
         collidingObject = null;
     }
+
     //충돌중인 객체 설정
     private void SetCollidingObject(Collider col)
     {
@@ -66,8 +67,8 @@ public class VrGrabAction : MonoBehaviour
         objectInHand = collidingObject;
         collidingObject = null;
 
-        FixedJoint joint = AddFixedJoint();
-        joint.connectedBody = objectInHand.GetComponent<Rigidbody>();
+        FixedJoint joint = AddFixedJoint(); // FixedJoint컴포넌트 초기화 한 후 생성
+        joint.connectedBody = objectInHand.GetComponent<Rigidbody>();  //잡은 물체 FixedJoint에 넣기
     }
     private FixedJoint AddFixedJoint()
     {
@@ -77,7 +78,7 @@ public class VrGrabAction : MonoBehaviour
         return fx;
     }
     //객체를 놓음
-    private void ReleaseObject()
+    private void ReleaseObject()//TODO : 놓을 때 살짝 날라가도록 만들기
     {
         if(GetComponent<FixedJoint>())
         {
