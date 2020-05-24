@@ -89,6 +89,10 @@
     {
       "name": "/actions/CustomeSet/in/TriggerBoolean",
       "type": "boolean"
+    },
+    {
+      "name": "/actions/CustomeSet/in/Pose",
+      "type": "pose"
     }
   ],
   "action_sets": [

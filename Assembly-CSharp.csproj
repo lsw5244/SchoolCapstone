@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\UnitEX.cs" />
     <Compile Include="Assets\Scripts\VR\ViveControlManager.cs" />
     <Compile Include="Assets\Scripts\VR\VrGrabAction.cs" />
+    <Compile Include="Assets\Scripts\VrCard\explosion.cs" />
     <Compile Include="Assets\Scripts\inCardMove.cs" />
     <None Include="Assets\EffectAsset\CartoonFX\Readme.txt" />
     <Reference Include="Unity.Timeline.Editor">

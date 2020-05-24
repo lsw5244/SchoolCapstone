@@ -72,6 +72,19 @@
          ]
       },
       "/actions/customeset" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [
+            {
+               "output" : "/actions/customeset/in/pose",
+               "path" : "/user/hand/left/pose/handgrip"
+            },
+            {
+               "output" : "/actions/customeset/in/pose",
+               "path" : "/user/hand/right/pose/handgrip"
+            }
+         ],
+         "skeleton" : [],
          "sources" : [
             {
                "inputs" : {
@@ -117,24 +130,6 @@
             }
          ],
          "sources" : [
-            {
-               "inputs" : {
-                  "position" : {
-                     "output" : "/actions/default/in/touchpadtouch"
-                  }
-               },
-               "mode" : "trackpad",
-               "path" : "/user/hand/left/input/trackpad"
-            },
-            {
-               "inputs" : {
-                  "position" : {
-                     "output" : "/actions/default/in/touchpadtouch"
-                  }
-               },
-               "mode" : "trackpad",
-               "path" : "/user/hand/right/input/trackpad"
-            },
             {
                "inputs" : {
                   "click" : {
