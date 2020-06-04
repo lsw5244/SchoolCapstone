@@ -62,6 +62,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CardPrefab\Scripts\AttackSpeedUp.cs" />
+    <Compile Include="Assets\CardPrefab\Scripts\EnemyAttackSpeedDown.cs" />
+    <Compile Include="Assets\CardPrefab\Scripts\FireExplosion.cs" />
+    <Compile Include="Assets\CardPrefab\Scripts\IceExplosion.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\Enemy.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\Enemy_spawn.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\GM.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\MeleeAttack.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\MeleeAttack_Enemy.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\Money.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\Unit.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\bullet.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\drag.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\enemy1.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\groundcheck.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\groundcheck_enemy.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\test_enemy2.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\tower1.cs" />
+    <Compile Include="Assets\Defence\Defence_scripts\tower2.cs" />
+    <Compile Include="Assets\Defence\New Unit\CardSeting.cs" />
+    <Compile Include="Assets\Defence\New Unit\newone.cs" />
     <Compile Include="Assets\EffectAsset\CartoonFX\DemoRosources\DemoGUI.cs" />
     <Compile Include="Assets\EffectAsset\CartoonFX\DemoRosources\DemoReactivator.cs" />
     <Compile Include="Assets\EffectAsset\CartoonFX\DemoRosources\FPSCartoon.cs" />
@@ -88,7 +109,6 @@
     <Compile Include="Assets\Scripts\Card\PassiveEx.cs" />
     <Compile Include="Assets\Scripts\CardMoveManager.cs" />
     <Compile Include="Assets\Scripts\CreateEnermy.cs" />
-    <Compile Include="Assets\Scripts\Unit.cs" />
     <Compile Include="Assets\Scripts\UnitEX.cs" />
     <Compile Include="Assets\Scripts\VR\ViveControlManager.cs" />
     <Compile Include="Assets\Scripts\VR\VrGrabAction.cs" />
